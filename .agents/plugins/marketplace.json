@@ -1,0 +1,20 @@
+{
+  "name": "mota-developer",
+  "interface": {
+    "displayName": "MoTA Developer"
+  },
+  "plugins": [
+    {
+      "name": "codex-mota-executor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-mota-executor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

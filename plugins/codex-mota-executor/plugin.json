@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "codex-mota-executor",
+  "version": "0.1.0",
+  "description": "Manage a local Codex worker for MoTA Creator bound Pull Agents.",
+  "repository": "https://github.com/mota-developer/codex-mota-executor",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MoTA Executor",
+        "shortDescription": "Connect Codex to MoTA Creator Pull Agents",
+        "longDescription": "Bind and inspect MoTA Creator Agents and control a local worker that keeps running after Codex closes.",
+        "developerName": "MoTA Developer",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Show the MoTA Executor and Creator Agent status.",
+          "Help me bind MoTA Creator from a local file."
+        ]
+      }
+    }
+  }
+}
